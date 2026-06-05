@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool isArmstrong(int x){
+bool is_it_Armstrong(int x){
     if(x==0) return true;
     int cnt=0;
     int temp=x;
@@ -29,5 +29,5 @@ int main()
     int n;
     cout<<"Enter the number : ";
     cin>>n;
-    cout<<"Is the number Armstrong? "<<isArmstrong(n);
+    cout<<"Is the number Armstrong? "<<is_it_Armstrong(n);
 }
